@@ -14,7 +14,7 @@ Vanessa também pode utilizar o comando `getent group (nome do grupo)` para visu
 
 Finalmente, após realizar as tarefas necessárias, é importante que Vanessa saia do usuário root usando o comando `exit`.
 
-![Texto Alternativo da Imagem](img/groupuser.png)
+![Texto Alternativo da Imagem](Img/groupuser.png)
 
 ## Problema 2:
 
@@ -54,10 +54,10 @@ Só o grupo tem permissões de leitura, escrita e execução.
 
 É super importante entender e controlar essas permissões para manter o sistema Linux seguro, organizado e funcionando direitinho.
 
-![Texto Alternativo da Imagem](img/pastaqualquer.png)
+![Texto Alternativo da Imagem](Img/pastaqualquer.png)
 
 
-![Texto Alternativo da Imagem](img/lsdapasta.png)
+![Texto Alternativo da Imagem](Img/lsdapasta.png)
 
 
 ## Problema 3:
@@ -66,31 +66,31 @@ O professor Daniel Vieira pediu a instalação do Apache. O Apache é um servido
 
 No meu sistema Linux baseado no Ubuntu, primeiro atualizei o gerenciador de pacotes com `sudo apt-get update` e depois usei o comando `sudo apt-get install apache2` para instalar o Apache usando o gerenciador de pacotes `apt-get`.
 
-![Texto Alternativo da Imagem](img/apache2install.png)
+![Texto Alternativo da Imagem](Img/apache2install.png)
 
 Para ativar o serviço do Apache, usamos o comando `systemctl start apache2` para iniciar o servidor. É crucial garantir que nenhum outro serviço esteja utilizando a mesma porta, que, por padrão, é a porta 80.
 
 Após iniciar o serviço, podemos verificar se ele está rodando corretamente usando o comando `systemctl status apache2`.
 
-![Texto Alternativo da Imagem](img/apache2status.png)
+![Texto Alternativo da Imagem](Img/apache2status.png)
 
 Essa é a página padrão do Apache, ela é criada por padrão na pasta `/var/www/html`.
 
 Como o servidor está rodando localmente ele responde no endereço `localhost:80`.
 
-![Texto Alternativo da Imagem](img/paginaPadraoApache.png)
+![Texto Alternativo da Imagem](Img/paginaPadraoApache.png)
 
 Para modificá-la podemos dar um `cd` para chegar até a pasta, um `ls` para listar os arquivos da pasta, e encontramos nela o `index.html` que é o arquivo html padrão carregado pelo apache, podemos entrar nele com um editor de arquivos, eu utilizei o `vim`.
 
-![Texto Alternativo da Imagem](img/abrirhtml.png)
+![Texto Alternativo da Imagem](Img/abrirhtml.png)
 
 No vim abrimos o código da página `index.html`.
 
-![Texto Alternativo da Imagem](img/vimapache.png)
+![Texto Alternativo da Imagem](Img/vimapache.png)
 
 Como o exercício pede, podemos apagar o conteúdo e deixar somente as tags base do html com um `<p>` e a frase solicitada. Já que alteramos a página padrão, quando acessarmos o endereço e porta padrão do apache, veremos a página alterada como mostra o print abaixo.
 
-![Texto Alternativo da Imagem](img/paginaModificada.png)
+![Texto Alternativo da Imagem](Img/paginaModificada.png)
 
 Agradeço pelos conhecimentos passados e as possibilidades do treinamento. Muito obrigado.
 
