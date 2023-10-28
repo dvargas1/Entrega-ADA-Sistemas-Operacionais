@@ -14,7 +14,7 @@ Vanessa também pode utilizar o comando `getent group (nome do grupo)` para visu
 
 Finalmente, após realizar as tarefas necessárias, é importante que Vanessa saia do usuário root usando o comando `exit`.
 
-![Texto Alternativo da Imagem](Img/groupuser.png)
+![Texto Alternativo da Imagem](Img/groupsuser.png)
 
 ## Problema 2:
 
