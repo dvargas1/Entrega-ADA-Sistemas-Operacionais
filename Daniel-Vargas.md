@@ -26,7 +26,6 @@ Para ver as permissões dos arquivos e pastas, a gente usa o comando `ls -la`. O
 
 Aqui estão alguns exemplos de permissões e o que elas significam:
 
-luaCopy code
 
 `dr-------- 2 dvargas dvargas 4096 Oct 27 20:41 .` 
 
@@ -40,13 +39,11 @@ luaCopy code
 
 Exemplos de arquivos com diferentes permissões:
 
-bashCopy code
 
 `chmod 777 arquivo.txt` 
 
 Todas as permissões (leitura, escrita e execução) são dadas ao dono, grupo e outros usuários, esse é um arquivo, perceba que não tem o 'd' na frente.
 
-bashCopy code
 
 `chmod 070 arquivo.txt` 
 
